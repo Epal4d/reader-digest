@@ -1,0 +1,52 @@
+Table Auth_User {
+  id int pk
+  name varchar
+  email varchar
+  password varchar
+  
+}
+Table books {
+  id int pk
+  title varchar
+  author varchar
+  ISBN_number varchar
+  img varchar
+  user_id int
+}
+Table Book_Category {
+  id int pk
+  book_id int 
+  category_id int
+  created_at timestamp
+
+}
+Table Category {
+  id int pk 
+  name varchar
+
+}
+Table Review {
+id int pk 
+book_id int 
+user_id int 
+rating int
+comment varchar
+date_posted timestamp
+}
+
+
+
+
+
+
+
+
+Ref: "Category"."id" < "Book_Category"."category_id"
+
+Ref: "books"."id" < "Book_Category"."book_id"
+
+Ref: "Auth_User"."id" < "books"."user_id"
+
+Ref: "Auth_User"."id" < "Review"."user_id"
+
+Ref: "books"."id" < "Review"."book_id"
