@@ -1,0 +1,57 @@
+[
+    {
+        "model": "digestapi.book",
+        "pk": 1,
+        "fields": {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "isbn_number": "9780743273565",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
+            "user_id": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 2,
+        "fields": {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "isbn_number": "9780061935466",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+            "user_id": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 3,
+        "fields": {
+            "title": "1984",
+            "author": "George Orwell",
+            "isbn_number": "9780451524935",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/1984first.jpg",
+            "user_id": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 4,
+        "fields": {
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "isbn_number": "9780062315007",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/TheAlchemist.jpg",
+            "user_id": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 5,
+        "fields": {
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "isbn_number": "9780060850524",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/BraveNewWorld_FirstEdition.jpg",
+            "user_id": 1
+        }
+    }
+]
